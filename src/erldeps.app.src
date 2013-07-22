@@ -1,0 +1,12 @@
+{application, erldeps,
+ [
+  {description, "Simple dependency module for starting and stopping Erlang applications."},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {erldeps_app, []}},
+  {env, []}
+ ]}.
